@@ -1,0 +1,620 @@
+    1  13:58:25.766066 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+    2  13:58:25.766095 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+    3  13:58:33.834054 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+    4  13:58:33.834080 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+    5  13:58:34.836698 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+    6  13:58:34.836823 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+    7  13:58:34.980091 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 4244552804:4244552862, ack 2555126434, win 4539, options [nop,nop,TS val 514325663 ecr 2183208318], length 58
+    8  13:58:34.984548 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 58:1476, ack 1, win 4539, options [nop,nop,TS val 514325667 ecr 2183208318], length 1418
+    9  13:58:34.988461 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 1476:2106, ack 1, win 4539, options [nop,nop,TS val 514325667 ecr 2183208318], length 630
+   10  13:58:34.988768 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 2106:2253, ack 1, win 4539, options [nop,nop,TS val 514325671 ecr 2183208318], length 147
+   11  13:58:35.049344 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 58, win 741, options [nop,nop,TS val 2183221219 ecr 514325663], length 0
+   12  13:58:35.049346 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 1476, win 752, options [nop,nop,TS val 2183221219 ecr 514325667], length 0
+   13  13:58:35.049348 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 2106, win 763, options [nop,nop,TS val 2183221219 ecr 514325667], length 0
+   14  13:58:35.049349 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 2253, win 774, options [nop,nop,TS val 2183221219 ecr 514325671], length 0
+   15  13:58:35.290472 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 1:63, ack 2253, win 774, options [nop,nop,TS val 2183221462 ecr 514325671], length 62
+   16  13:58:35.290474 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 63:1481, ack 2253, win 774, options [nop,nop,TS val 2183221462 ecr 514325671], length 1418
+   17  13:58:35.290477 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 1481:2899, ack 2253, win 774, options [nop,nop,TS val 2183221462 ecr 514325671], length 1418
+   18  13:58:35.290480 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 2899:4122, ack 2253, win 774, options [nop,nop,TS val 2183221462 ecr 514325671], length 1223
+   19  13:58:35.291910 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 4122:5540, ack 2253, win 774, options [nop,nop,TS val 2183221463 ecr 514325671], length 1418
+   20  13:58:35.291913 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 5540:6958, ack 2253, win 774, options [nop,nop,TS val 2183221463 ecr 514325671], length 1418
+   21  13:58:35.291916 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 6958:8376, ack 2253, win 774, options [nop,nop,TS val 2183221463 ecr 514325671], length 1418
+   22  13:58:35.291956 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 8376:8471, ack 2253, win 774, options [nop,nop,TS val 2183221463 ecr 514325671], length 95
+   23  13:58:35.292790 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 8471:9889, ack 2253, win 774, options [nop,nop,TS val 2183221464 ecr 514325671], length 1418
+   24  13:58:35.292793 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 9889:11307, ack 2253, win 774, options [nop,nop,TS val 2183221464 ecr 514325671], length 1418
+   25  13:58:35.293030 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 11307:12725, ack 2253, win 774, options [nop,nop,TS val 2183221464 ecr 514325671], length 1418
+   26  13:58:35.293033 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 12725:12910, ack 2253, win 774, options [nop,nop,TS val 2183221464 ecr 514325671], length 185
+   27  13:58:35.293760 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 12910:14328, ack 2253, win 774, options [nop,nop,TS val 2183221465 ecr 514325671], length 1418
+   28  13:58:35.293769 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 14328:14925, ack 2253, win 774, options [nop,nop,TS val 2183221465 ecr 514325671], length 597
+   29  13:58:35.296024 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 14925:16343, ack 2253, win 774, options [nop,nop,TS val 2183221467 ecr 514325671], length 1418
+   30  13:58:35.296027 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 16343:17761, ack 2253, win 774, options [nop,nop,TS val 2183221467 ecr 514325671], length 1418
+   31  13:58:35.296028 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 17761:19179, ack 2253, win 774, options [nop,nop,TS val 2183221467 ecr 514325671], length 1418
+   32  13:58:35.296030 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 19179:19215, ack 2253, win 774, options [nop,nop,TS val 2183221467 ecr 514325671], length 36
+   33  13:58:35.296908 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 19215:20633, ack 2253, win 774, options [nop,nop,TS val 2183221468 ecr 514325671], length 1418
+   34  13:58:35.296911 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 20633:22051, ack 2253, win 774, options [nop,nop,TS val 2183221468 ecr 514325671], length 1418
+   35  13:58:35.296913 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 22051:23469, ack 2253, win 774, options [nop,nop,TS val 2183221468 ecr 514325671], length 1418
+   36  13:58:35.296915 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 23469:23661, ack 2253, win 774, options [nop,nop,TS val 2183221468 ecr 514325671], length 192
+   37  13:58:35.297729 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 4122, win 4410, options [nop,nop,TS val 514325978 ecr 2183221462], length 0
+   38  13:58:35.297731 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 8376, win 4277, options [nop,nop,TS val 514325978 ecr 2183221463], length 0
+   39  13:58:35.297732 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 8471, win 4274, options [nop,nop,TS val 514325978 ecr 2183221463], length 0
+   40  13:58:35.297733 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 11307, win 4185, options [nop,nop,TS val 514325978 ecr 2183221464], length 0
+   41  13:58:35.297734 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 12910, win 4135, options [nop,nop,TS val 514325978 ecr 2183221464], length 0
+   42  13:58:35.297735 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 14925, win 4072, options [nop,nop,TS val 514325978 ecr 2183221465], length 0
+   43  13:58:35.297736 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 19215, win 3938, options [nop,nop,TS val 514325978 ecr 2183221467], length 0
+   44  13:58:35.297737 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 19215, win 4539, options [nop,nop,TS val 514325978 ecr 2183221467], length 0
+   45  13:58:35.299174 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 23661:25079, ack 2253, win 774, options [nop,nop,TS val 2183221470 ecr 514325671], length 1418
+   46  13:58:35.299176 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 25079:26497, ack 2253, win 774, options [nop,nop,TS val 2183221470 ecr 514325671], length 1418
+   47  13:58:35.299179 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 26497:27876, ack 2253, win 774, options [nop,nop,TS val 2183221470 ecr 514325671], length 1379
+   48  13:58:35.299890 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 27876:29294, ack 2253, win 774, options [nop,nop,TS val 2183221471 ecr 514325671], length 1418
+   49  13:58:35.299893 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 29294:30712, ack 2253, win 774, options [nop,nop,TS val 2183221471 ecr 514325671], length 1418
+   50  13:58:35.299895 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 30712:32130, ack 2253, win 774, options [nop,nop,TS val 2183221471 ecr 514325671], length 1418
+   51  13:58:35.299897 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 32130:32286, ack 2253, win 774, options [nop,nop,TS val 2183221471 ecr 514325671], length 156
+   52  13:58:35.299943 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 23661, win 4400, options [nop,nop,TS val 514325981 ecr 2183221468], length 0
+   53  13:58:35.299945 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 23661, win 4539, options [nop,nop,TS val 514325981 ecr 2183221468], length 0
+   54  13:58:35.301008 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 35122:36540, ack 2253, win 774, options [nop,nop,TS val 2183221472 ecr 514325978], length 1418
+   55  13:58:35.301096 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 32286:33704, ack 2253, win 774, options [nop,nop,TS val 2183221472 ecr 514325978], length 1418
+   56  13:58:35.301098 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 33704:35122, ack 2253, win 774, options [nop,nop,TS val 2183221472 ecr 514325978], length 1418
+   57  13:58:35.301482 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 27876, win 4407, options [nop,nop,TS val 514325982 ecr 2183221470], length 0
+   58  13:58:35.301484 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 32286, win 4269, options [nop,nop,TS val 514325982 ecr 2183221471], length 0
+   59  13:58:35.301485 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 32286, win 4539, options [nop,nop,TS val 514325982 ecr 2183221471], length 0
+   60  13:58:35.302470 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 32286, win 4539, options [nop,nop,TS val 514325982 ecr 2183221471,nop,nop,sack 1 {35122:36540}], length 0
+   61  13:58:35.302471 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 36540, win 4406, options [nop,nop,TS val 514325982 ecr 2183221472], length 0
+   62  13:58:35.302472 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 36540, win 4539, options [nop,nop,TS val 514325982 ecr 2183221472], length 0
+   63  13:58:35.302596 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 36540:37958, ack 2253, win 774, options [nop,nop,TS val 2183221474 ecr 514325981], length 1418
+   64  13:58:35.304826 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 37958:39376, ack 2253, win 774, options [nop,nop,TS val 2183221474 ecr 514325981], length 1418
+   65  13:58:35.304829 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 39376:40310, ack 2253, win 774, options [nop,nop,TS val 2183221474 ecr 514325981], length 934
+   66  13:58:35.304831 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 40310:40374, ack 2253, win 774, options [nop,nop,TS val 2183221474 ecr 514325981], length 64
+   67  13:58:35.304832 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 40374:40413, ack 2253, win 774, options [nop,nop,TS val 2183221474 ecr 514325981], length 39
+   68  13:58:35.306564 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 37958, win 4494, options [nop,nop,TS val 514325987 ecr 2183221474], length 0
+   69  13:58:35.306566 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 40413, win 4418, options [nop,nop,TS val 514325987 ecr 2183221474], length 0
+   70  13:58:35.306567 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 40413, win 4539, options [nop,nop,TS val 514325987 ecr 2183221474], length 0
+   71  13:58:35.307056 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 2253:2292, ack 40413, win 4539, options [nop,nop,TS val 514325987 ecr 2183221474], length 39
+   72  13:58:35.309212 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 2292, win 774, options [nop,nop,TS val 2183221481 ecr 514325987], length 0
+   73  13:58:35.768322 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+   74  13:58:37.041735 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+   75  13:58:37.844187 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+   76  13:58:37.844317 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+   77  13:58:38.462511 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+   78  13:58:39.530121 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+   79  13:58:39.885257 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+   80  13:58:40.349571 ARP, Request who-has usertekiiphone tell dlinkrouter, length 28
+   81  13:58:40.349611 ARP, Reply usertekiiphone is-at 42:55:64:8e:cb:27 (oui Unknown), length 28
+   82  13:58:40.698873 IP usertekiiphone.57411 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 1841200005:1841200060, ack 4254213520, win 4096, options [nop,nop,TS val 3326787889 ecr 1190514922], length 55
+   83  13:58:40.804355 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [.], ack 55, win 265, options [nop,nop,TS val 1190544758 ecr 3326787889], length 0
+   84  13:58:40.966011 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [P.], seq 1:62, ack 55, win 265, options [nop,nop,TS val 1190544918 ecr 3326787889], length 61
+   85  13:58:40.966014 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [P.], seq 62:133, ack 55, win 265, options [nop,nop,TS val 1190544918 ecr 3326787889], length 71
+   86  13:58:40.966015 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [P.], seq 133:172, ack 55, win 265, options [nop,nop,TS val 1190544918 ecr 3326787889], length 39
+   87  13:58:40.966477 IP usertekiiphone.57411 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 172, win 4090, options [nop,nop,TS val 3326788154 ecr 1190544918], length 0
+   88  13:58:40.967285 IP usertekiiphone.57411 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 55:94, ack 172, win 4096, options [nop,nop,TS val 3326788155 ecr 1190544918], length 39
+   89  13:58:40.970186 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [.], ack 94, win 265, options [nop,nop,TS val 1190544924 ecr 3326788155], length 0
+   90  13:58:41.534266 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+   91  13:58:44.642441 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+   92  13:58:45.571897 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52177: Flags [F.], seq 1901923756, ack 1196567772, win 276, options [nop,nop,TS val 2160584413 ecr 1833773997], length 0
+   93  13:58:45.572091 IP usertekiiphone.52177 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 1, win 4096, options [nop,nop,TS val 1833833709 ecr 2160584413], length 0
+   94  13:58:45.593683 IP usertekiiphone.52177 > 80.14.211.130.bc.googleusercontent.com.https: Flags [F.], seq 1, ack 1, win 4096, options [nop,nop,TS val 1833833730 ecr 2160584413], length 0
+   95  13:58:45.596023 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 2292:2350, ack 40413, win 4539, options [nop,nop,TS val 514336271 ecr 2183221481], length 58
+   96  13:58:45.596431 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52177: Flags [.], ack 2, win 276, options [nop,nop,TS val 2160584569 ecr 1833833730], length 0
+   97  13:58:45.596810 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 2350:3768, ack 40413, win 4539, options [nop,nop,TS val 514336271 ecr 2183221481], length 1418
+   98  13:58:45.596857 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 3768:4217, ack 40413, win 4539, options [nop,nop,TS val 514336271 ecr 2183221481], length 449
+   99  13:58:45.598568 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 2350, win 774, options [nop,nop,TS val 2183231770 ecr 514336271], length 0
+  100  13:58:45.599644 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 3768, win 786, options [nop,nop,TS val 2183231771 ecr 514336271], length 0
+  101  13:58:45.599646 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 4217, win 797, options [nop,nop,TS val 2183231771 ecr 514336271], length 0
+  102  13:58:45.640965 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  103  13:58:45.981713 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 40413:40475, ack 4217, win 797, options [nop,nop,TS val 2183231997 ecr 514336271], length 62
+  104  13:58:45.983194 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 40475:41893, ack 4217, win 797, options [nop,nop,TS val 2183231997 ecr 514336271], length 1418
+  105  13:58:45.983197 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 41893:42739, ack 4217, win 797, options [nop,nop,TS val 2183231997 ecr 514336271], length 846
+  106  13:58:45.983198 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 42739:42778, ack 4217, win 797, options [nop,nop,TS val 2183231997 ecr 514336271], length 39
+  107  13:58:45.983200 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 42739:42778, ack 4217, win 797, options [nop,nop,TS val 2183232019 ecr 514336271], length 39
+  108  13:58:45.985494 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 40475, win 4537, options [nop,nop,TS val 514336658 ecr 2183231997], length 0
+  109  13:58:45.985497 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 42778, win 4465, options [nop,nop,TS val 514336658 ecr 2183231997], length 0
+  110  13:58:45.985498 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 42778, win 4465, options [nop,nop,TS val 514336658 ecr 2183232019,nop,nop,sack 1 {42739:42778}], length 0
+  111  13:58:45.988125 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 4217:4256, ack 42778, win 4539, options [nop,nop,TS val 514336660 ecr 2183232019], length 39
+  112  13:58:45.990540 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 4256, win 797, options [nop,nop,TS val 2183232162 ecr 514336660], length 0
+  113  13:58:46.008038 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [S], seq 3542700213, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 1368905176 ecr 0,sackOK,eol], length 0
+  114  13:58:46.009179 IP usertekiiphone.62271 > dlinkrouter.domain: 617+ A? pgorelease.nianticlabs.com. (44)
+  115  13:58:46.010884 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [S.], seq 1350671169, ack 3542700214, win 65535, options [mss 1430,sackOK,TS val 4206633157 ecr 1368905176,nop,wscale 8], length 0
+  116  13:58:46.011034 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 1, win 4121, options [nop,nop,TS val 1368905180 ecr 4206633157], length 0
+  117  13:58:46.015205 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 1:219, ack 1, win 4121, options [nop,nop,TS val 1368905184 ecr 4206633157], length 218
+  118  13:58:46.018130 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [.], ack 219, win 261, options [nop,nop,TS val 4206633164 ecr 1368905184], length 0
+  119  13:58:46.018416 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [P.], seq 1:148, ack 219, win 261, options [nop,nop,TS val 4206633165 ecr 1368905184], length 147
+  120  13:58:46.018512 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 148, win 4116, options [nop,nop,TS val 1368905187 ecr 4206633165], length 0
+  121  13:58:46.019222 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 219:225, ack 148, win 4116, options [nop,nop,TS val 1368905187 ecr 4206633165], length 6
+  122  13:58:46.027445 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [.], ack 225, win 261, options [nop,nop,TS val 4206633174 ecr 1368905187], length 0
+  123  13:58:46.027607 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 225:270, ack 148, win 4116, options [nop,nop,TS val 1368905196 ecr 4206633174], length 45
+  124  13:58:46.030517 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [.], ack 270, win 261, options [nop,nop,TS val 4206633177 ecr 1368905196], length 0
+  125  13:58:46.031870 IP dlinkrouter.domain > usertekiiphone.62271: 617 1/0/0 A 130.211.14.80 (60)
+  126  13:58:46.052969 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 270:562, ack 148, win 4116, options [nop,nop,TS val 1368905221 ecr 4206633177], length 292
+  127  13:58:46.055467 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [.], ack 562, win 265, options [nop,nop,TS val 4206633202 ecr 1368905221], length 0
+  128  13:58:46.217633 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [P.], seq 148:398, ack 562, win 265, options [nop,nop,TS val 4206633364 ecr 1368905221], length 250
+  129  13:58:46.217772 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 398, win 4108, options [nop,nop,TS val 1368905383 ecr 4206633364], length 0
+  130  13:58:46.245464 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 562:1771, ack 398, win 4108, options [nop,nop,TS val 1368905410 ecr 4206633364], length 1209
+  131  13:58:46.248199 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [.], ack 1771, win 276, options [nop,nop,TS val 4206633395 ecr 1368905410], length 0
+  132  13:58:46.577669 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [P.], seq 398:567, ack 1771, win 276, options [nop,nop,TS val 4206633555 ecr 1368905410], length 169
+  133  13:58:46.577784 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 567, win 4103, options [nop,nop,TS val 1368905740 ecr 4206633555], length 0
+  134  13:58:46.864033 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  135  13:58:46.864098 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  136  13:58:49.394646 IP nslabs-macbook-pro.local.58466 > 239.255.255.250.ssdp: UDP, length 174
+  137  13:58:50.395796 IP nslabs-macbook-pro.local.58466 > 239.255.255.250.ssdp: UDP, length 174
+  138  13:58:51.396053 IP nslabs-macbook-pro.local.58466 > 239.255.255.250.ssdp: UDP, length 174
+  139  13:58:52.397015 IP nslabs-macbook-pro.local.58466 > 239.255.255.250.ssdp: UDP, length 174
+  140  13:58:52.830082 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  141  13:58:54.420743 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  142  13:58:54.831785 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  143  13:58:54.831863 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  144  13:58:55.084540 IP ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https > usertekiiphone.57421: Flags [P.], seq 4223393027:4223393073, ack 2208576112, win 121, options [nop,nop,TS val 661594545 ecr 3718818071], length 46
+  145  13:58:55.084541 IP ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https > usertekiiphone.57421: Flags [P.], seq 46:77, ack 1, win 121, options [nop,nop,TS val 661594545 ecr 3718818071], length 31
+  146  13:58:55.084542 IP ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https > usertekiiphone.57421: Flags [F.], seq 77, ack 1, win 121, options [nop,nop,TS val 661594545 ecr 3718818071], length 0
+  147  13:58:55.085810 IP usertekiiphone.57421 > ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https: Flags [.], ack 77, win 4093, options [nop,nop,TS val 3718878271 ecr 661594545], length 0
+  148  13:58:55.085811 IP usertekiiphone.57421 > ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https: Flags [.], ack 78, win 4093, options [nop,nop,TS val 3718878271 ecr 661594545], length 0
+  149  13:58:55.098061 IP usertekiiphone.57421 > ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https: Flags [P.], seq 1:47, ack 78, win 4096, options [nop,nop,TS val 3718878283 ecr 661594545], length 46
+  150  13:58:55.098953 IP usertekiiphone.57421 > ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https: Flags [P.], seq 47:78, ack 78, win 4096, options [nop,nop,TS val 3718878284 ecr 661594545], length 31
+  151  13:58:55.100546 IP usertekiiphone.57421 > ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https: Flags [F.], seq 78, ack 78, win 4096, options [nop,nop,TS val 3718878285 ecr 661594545], length 0
+  152  13:58:55.251709 IP ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https > usertekiiphone.57421: Flags [F.], seq 77, ack 1, win 121, options [nop,nop,TS val 661594861 ecr 3718818071], length 0
+  153  13:58:55.251710 IP ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https > usertekiiphone.57421: Flags [R], seq 4223393105, win 0, length 0
+  154  13:58:55.251711 IP ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https > usertekiiphone.57421: Flags [R], seq 4223393105, win 0, length 0
+  155  13:58:55.251711 IP ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https > usertekiiphone.57421: Flags [R], seq 4223393105, win 0, length 0
+  156  13:58:55.251972 IP usertekiiphone.57421 > ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https: Flags [F.], seq 78, ack 78, win 4096, options [nop,nop,TS val 3718878435 ecr 661594545], length 0
+  157  13:58:55.490031 IP ec2-54-193-68-112.us-west-1.compute.amazonaws.com.https > usertekiiphone.57421: Flags [R], seq 4223393105, win 0, length 0
+  158  13:58:55.834827 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  159  13:58:55.834927 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  160  13:58:56.235398 IP usertekiiphone.57417 > 151.101.77.208.https: Flags [P.], seq 3690521671:3690521735, ack 73788404, win 4096, options [nop,nop,TS val 1293669925 ecr 311120004], length 64
+  161  13:58:56.237632 IP usertekiiphone.57417 > 151.101.77.208.https: Flags [P.], seq 64:463, ack 1, win 4096, options [nop,nop,TS val 1293669927 ecr 311120004], length 399
+  162  13:58:56.270529 IP 151.101.77.208.https > usertekiiphone.57417: Flags [.], ack 64, win 299, options [nop,nop,TS val 311183430 ecr 1293669925], length 0
+  163  13:58:56.270530 IP 151.101.77.208.https > usertekiiphone.57417: Flags [.], ack 463, win 305, options [nop,nop,TS val 311183430 ecr 1293669927], length 0
+  164  13:58:56.270531 IP 151.101.77.208.https > usertekiiphone.57417: Flags [P.], seq 1:43, ack 463, win 305, options [nop,nop,TS val 311183430 ecr 1293669927], length 42
+  165  13:58:56.271990 IP usertekiiphone.57417 > 151.101.77.208.https: Flags [.], ack 43, win 4094, options [nop,nop,TS val 1293669959 ecr 311183430], length 0
+  166  13:58:56.491874 IP 151.101.77.208.https > usertekiiphone.57417: Flags [P.], seq 43:221, ack 463, win 305, options [nop,nop,TS val 311183651 ecr 1293669959], length 178
+  167  13:58:56.491876 IP 151.101.77.208.https > usertekiiphone.57417: Flags [P.], seq 221:259, ack 463, win 305, options [nop,nop,TS val 311183651 ecr 1293669959], length 38
+  168  13:58:56.514842 IP usertekiiphone.57417 > 151.101.77.208.https: Flags [.], ack 259, win 4089, options [nop,nop,TS val 1293670201 ecr 311183651], length 0
+  169  13:58:58.844209 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  170  13:58:58.844234 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  171  13:59:01.054333 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  172  13:59:02.653311 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  173  13:59:06.087877 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  174  13:59:06.088034 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  175  13:59:06.255521 IP6 dlinkrouter.local > ff02::1: ICMP6, router advertisement, length 32
+  176  13:59:07.089581 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  177  13:59:07.089653 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  178  13:59:07.177168 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  179  13:59:07.863533 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  180  13:59:07.863614 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  181  13:59:09.599387 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  182  13:59:10.098495 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  183  13:59:10.098582 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  184  13:59:10.146723 IP nslabs-mbp.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  185  13:59:10.146732 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  186  13:59:11.569324 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  187  13:59:15.958275 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  188  13:59:15.958294 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  189  13:59:16.961112 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  190  13:59:16.961205 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  191  13:59:16.968143 IP usertekiiphone.51608 > nslabs-mbp.56756: Flags [.], ack 2057954609, win 4096, length 0
+  192  13:59:17.102878 IP nslabs-mbp.56756 > usertekiiphone.51608: Flags [.], ack 1, win 2048, options [nop,nop,TS val 2535874694 ecr 1191796617], length 0
+  193  13:59:17.636315 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  194  13:59:19.119940 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [4q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (96)
+  195  13:59:19.120006 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [4q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (96)
+  196  13:59:19.157997 IP nslabs-mbp.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  197  13:59:19.158004 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  198  13:59:20.308676 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  199  13:59:26.027516 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  200  13:59:28.138439 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  201  13:59:28.138453 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  202  13:59:28.957238 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  203  13:59:34.112889 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  204  13:59:34.640130 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 1/0/0 PTR 41ebc443d3f6._airdrop._tcp.local. (58)
+  205  13:59:36.820539 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 1/0/0 PTR 41ebc443d3f6._airdrop._tcp.local. (58)
+  206  13:59:37.032156 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  207  13:59:37.032292 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  208  13:59:37.540190 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  209  13:59:38.036822 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  210  13:59:38.036913 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  211  13:59:38.823965 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 1/0/0 PTR 41ebc443d3f6._airdrop._tcp.local. (58)
+  212  13:59:41.044714 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  213  13:59:41.044730 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  214  13:59:46.176133 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [4q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (96)
+  215  13:59:46.176221 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [4q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (96)
+  216  13:59:46.333529 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [F.], seq 567, ack 1771, win 276, options [nop,nop,TS val 4206693364 ecr 1368905740], length 0
+  217  13:59:46.333833 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 568, win 4103, options [nop,nop,TS val 1368965413 ecr 4206693364], length 0
+  218  13:59:46.357516 IP usertekiiphone.52178 > 80.14.211.130.bc.googleusercontent.com.https: Flags [F.], seq 1771, ack 568, win 4103, options [nop,nop,TS val 1368965435 ecr 4206693364], length 0
+  219  13:59:46.360179 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52178: Flags [.], ack 1772, win 276, options [nop,nop,TS val 4206693507 ecr 1368965435], length 0
+  220  13:59:47.375379 IP usertekiiphone.60170 > dlinkrouter.domain: 51285+ Type65? pgorelease.nianticlabs.com. (44)
+  221  13:59:47.375911 IP usertekiiphone.63675 > dlinkrouter.domain: 2533+ A? pgorelease.nianticlabs.com. (44)
+  222  13:59:47.414219 IP dlinkrouter.domain > usertekiiphone.60170: 51285 0/1/0 (116)
+  223  13:59:47.414225 IP dlinkrouter.domain > usertekiiphone.63675: 2533 1/0/0 A 130.211.14.80 (60)
+  224  13:59:47.425082 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [S], seq 3226172104, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 4170308407 ecr 0,sackOK,eol], length 0
+  225  13:59:47.427460 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [S.], seq 1701563026, ack 3226172105, win 65535, options [mss 1430,sackOK,TS val 83191076 ecr 4170308407,nop,wscale 8], length 0
+  226  13:59:47.427605 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 1, win 4121, options [nop,nop,TS val 4170308409 ecr 83191076], length 0
+  227  13:59:47.437129 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 1:219, ack 1, win 4121, options [nop,nop,TS val 4170308418 ecr 83191076], length 218
+  228  13:59:47.439564 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], ack 219, win 261, options [nop,nop,TS val 83191088 ecr 4170308418], length 0
+  229  13:59:47.441077 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], seq 1:1419, ack 219, win 261, options [nop,nop,TS val 83191089 ecr 4170308418], length 1418
+  230  13:59:47.441079 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], seq 1419:2837, ack 219, win 261, options [nop,nop,TS val 83191089 ecr 4170308418], length 1418
+  231  13:59:47.441080 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [P.], seq 2837:3501, ack 219, win 261, options [nop,nop,TS val 83191089 ecr 4170308418], length 664
+  232  13:59:47.441184 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 3501, win 4011, options [nop,nop,TS val 4170308421 ecr 83191089], length 0
+  233  13:59:47.525502 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 219:294, ack 3501, win 4096, options [nop,nop,TS val 4170308505 ecr 83191089], length 75
+  234  13:59:47.533485 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], ack 294, win 261, options [nop,nop,TS val 83191182 ecr 4170308505], length 0
+  235  13:59:47.533638 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 294:345, ack 3501, win 4096, options [nop,nop,TS val 4170308513 ecr 83191182], length 51
+  236  13:59:47.536066 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], ack 345, win 261, options [nop,nop,TS val 83191185 ecr 4170308513], length 0
+  237  13:59:47.536069 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [P.], seq 3501:3552, ack 345, win 261, options [nop,nop,TS val 83191185 ecr 4170308513], length 51
+  238  13:59:47.536203 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 3552, win 4094, options [nop,nop,TS val 4170308515 ecr 83191185], length 0
+  239  13:59:47.540001 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 345:637, ack 3552, win 4096, options [nop,nop,TS val 4170308518 ecr 83191185], length 292
+  240  13:59:47.547314 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], ack 637, win 265, options [nop,nop,TS val 83191196 ecr 4170308518], length 0
+  241  13:59:47.774534 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [P.], seq 3552:3802, ack 637, win 265, options [nop,nop,TS val 83191354 ecr 4170308518], length 250
+  242  13:59:47.774727 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 3802, win 4088, options [nop,nop,TS val 4170308751 ecr 83191354], length 0
+  243  13:59:47.922054 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 637:2055, ack 3802, win 4096, options [nop,nop,TS val 4170308897 ecr 83191354], length 1418
+  244  13:59:47.922169 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 2055:2542, ack 3802, win 4096, options [nop,nop,TS val 4170308897 ecr 83191354], length 487
+  245  13:59:47.924686 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], ack 2055, win 276, options [nop,nop,TS val 83191573 ecr 4170308897], length 0
+  246  13:59:47.924687 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], ack 2542, win 287, options [nop,nop,TS val 83191573 ecr 4170308897], length 0
+  247  13:59:48.086486 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [P.], seq 3802:3971, ack 2542, win 287, options [nop,nop,TS val 83191735 ecr 4170308897], length 169
+  248  13:59:48.086671 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 3971, win 4090, options [nop,nop,TS val 4170309060 ecr 83191735], length 0
+  249  13:59:51.313004 ARP, Request who-has usertekiiphone tell dlinkrouter, length 28
+  250  13:59:51.313057 ARP, Reply usertekiiphone is-at 42:55:64:8e:cb:27 (oui Unknown), length 28
+  251  13:59:53.770392 ARP, Reply dlinkrouter is-at f4:8c:eb:9e:9e:db (oui Unknown), length 28
+  252  13:59:56.027465 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) SRV 2cb0c815-1575-469d-99c2-7e1fd383c647.local.:8770 0 0, (Cache flush) TXT "flags=1015", PTR _airdrop._tcp.local., PTR 41ebc443d3f6._airdrop._tcp.local. (244)
+  253  13:59:57.029473 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) SRV 2cb0c815-1575-469d-99c2-7e1fd383c647.local.:8770 0 0, (Cache flush) TXT "flags=1015", PTR _airdrop._tcp.local., PTR 41ebc443d3f6._airdrop._tcp.local. (244)
+  254  13:59:58.170503 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  255  13:59:58.170593 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  256  13:59:59.034355 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) SRV 2cb0c815-1575-469d-99c2-7e1fd383c647.local.:8770 0 0, (Cache flush) TXT "flags=1015", PTR _airdrop._tcp.local., PTR 41ebc443d3f6._airdrop._tcp.local. (244)
+  257  13:59:59.174176 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  258  13:59:59.174250 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  259  14:00:02.181483 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  260  14:00:02.181549 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  261  14:00:03.041634 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) SRV 2cb0c815-1575-469d-99c2-7e1fd383c647.local.:8770 0 0, (Cache flush) TXT "flags=1015", PTR _airdrop._tcp.local., PTR 41ebc443d3f6._airdrop._tcp.local. (244)
+  262  14:00:04.919540 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 4256:4314, ack 42778, win 4539, options [nop,nop,TS val 514415583 ecr 2183232162], length 58
+  263  14:00:04.920043 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 4314:5732, ack 42778, win 4539, options [nop,nop,TS val 514415583 ecr 2183232162], length 1418
+  264  14:00:04.920058 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 5732:6362, ack 42778, win 4539, options [nop,nop,TS val 514415583 ecr 2183232162], length 630
+  265  14:00:04.920069 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 6362:6445, ack 42778, win 4539, options [nop,nop,TS val 514415583 ecr 2183232162], length 83
+  266  14:00:04.921995 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 4314, win 797, options [nop,nop,TS val 2183311094 ecr 514415583], length 0
+  267  14:00:04.922765 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 5732, win 808, options [nop,nop,TS val 2183311094 ecr 514415583], length 0
+  268  14:00:04.922765 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 6362, win 819, options [nop,nop,TS val 2183311094 ecr 514415583], length 0
+  269  14:00:04.922766 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 6445, win 819, options [nop,nop,TS val 2183311094 ecr 514415583], length 0
+  270  14:00:05.341724 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 42778:42840, ack 6445, win 819, options [nop,nop,TS val 2183311361 ecr 514415583], length 62
+  271  14:00:05.341775 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 42840:44258, ack 6445, win 819, options [nop,nop,TS val 2183311361 ecr 514415583], length 1418
+  272  14:00:05.341777 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 44258:45676, ack 6445, win 819, options [nop,nop,TS val 2183311361 ecr 514415583], length 1418
+  273  14:00:05.341779 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 45676:46193, ack 6445, win 819, options [nop,nop,TS val 2183311361 ecr 514415583], length 517
+  274  14:00:05.341780 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 46193:46232, ack 6445, win 819, options [nop,nop,TS val 2183311361 ecr 514415583], length 39
+  275  14:00:05.341781 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 46193:46232, ack 6445, win 819, options [nop,nop,TS val 2183311462 ecr 514415583], length 39
+  276  14:00:05.342252 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 42840, win 4537, options [nop,nop,TS val 514416004 ecr 2183311361], length 0
+  277  14:00:05.342254 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 46232, win 4431, options [nop,nop,TS val 514416004 ecr 2183311361], length 0
+  278  14:00:05.342254 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 46232, win 4431, options [nop,nop,TS val 514416004 ecr 2183311462,nop,nop,sack 1 {46193:46232}], length 0
+  279  14:00:05.342255 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 46232, win 4539, options [nop,nop,TS val 514416004 ecr 2183311462], length 0
+  280  14:00:05.342950 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 6445:6484, ack 46232, win 4539, options [nop,nop,TS val 514416005 ecr 2183311462], length 39
+  281  14:00:05.345543 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 6484, win 819, options [nop,nop,TS val 2183311517 ecr 514416005], length 0
+  282  14:00:11.204248 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  283  14:00:11.204355 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  284  14:00:17.678433 IP usertekiiphone.51608 > nslabs-mbp.56756: Flags [.], ack 1, win 4096, length 0
+  285  14:00:17.786487 IP nslabs-mbp.56756 > usertekiiphone.51608: Flags [.], ack 1, win 2048, options [nop,nop,TS val 2535935287 ecr 1191796617], length 0
+  286  14:00:19.251509 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  287  14:00:19.251605 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  288  14:00:20.256218 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  289  14:00:20.256300 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  290  14:00:23.266219 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  291  14:00:23.266306 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  292  14:00:24.839541 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 6484:6542, ack 46232, win 4539, options [nop,nop,TS val 514435500 ecr 2183311517], length 58
+  293  14:00:24.840556 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 6542:7960, ack 46232, win 4539, options [nop,nop,TS val 514435501 ecr 2183311517], length 1418
+  294  14:00:24.840625 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 7960:8513, ack 46232, win 4539, options [nop,nop,TS val 514435501 ecr 2183311517], length 553
+  295  14:00:24.842310 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 6542, win 819, options [nop,nop,TS val 2183331014 ecr 514435500], length 0
+  296  14:00:24.843483 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 7960, win 830, options [nop,nop,TS val 2183331015 ecr 514435501], length 0
+  297  14:00:24.843484 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 8513, win 841, options [nop,nop,TS val 2183331015 ecr 514435501], length 0
+  298  14:00:25.207627 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 46232:46294, ack 8513, win 841, options [nop,nop,TS val 2183331224 ecr 514435501], length 62
+  299  14:00:25.207629 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 46294:47712, ack 8513, win 841, options [nop,nop,TS val 2183331224 ecr 514435501], length 1418
+  300  14:00:25.208465 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 47712, win 4492, options [nop,nop,TS val 514435867 ecr 2183331224], length 0
+  301  14:00:25.209070 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 47712:49130, ack 8513, win 841, options [nop,nop,TS val 2183331224 ecr 514435501], length 1418
+  302  14:00:25.209073 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 49130:49575, ack 8513, win 841, options [nop,nop,TS val 2183331224 ecr 514435501], length 445
+  303  14:00:25.209074 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 49575:49614, ack 8513, win 841, options [nop,nop,TS val 2183331224 ecr 514435501], length 39
+  304  14:00:25.209075 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 49575:49614, ack 8513, win 841, options [nop,nop,TS val 2183331374 ecr 514435501], length 39
+  305  14:00:25.209544 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 49614, win 4479, options [nop,nop,TS val 514435868 ecr 2183331224], length 0
+  306  14:00:25.209545 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 49614, win 4479, options [nop,nop,TS val 514435868 ecr 2183331374,nop,nop,sack 1 {49575:49614}], length 0
+  307  14:00:25.210069 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 8513:8552, ack 49614, win 4539, options [nop,nop,TS val 514435868 ecr 2183331374], length 39
+  308  14:00:25.212882 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 8552, win 841, options [nop,nop,TS val 2183331385 ecr 514435868], length 0
+  309  14:00:25.690860 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 8552:8610, ack 49614, win 4539, options [nop,nop,TS val 514436348 ecr 2183331385], length 58
+  310  14:00:25.691365 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 8610:9917, ack 49614, win 4539, options [nop,nop,TS val 514436348 ecr 2183331385], length 1307
+  311  14:00:25.698348 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 8610, win 841, options [nop,nop,TS val 2183331870 ecr 514436348], length 0
+  312  14:00:25.698687 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 9917, win 852, options [nop,nop,TS val 2183331870 ecr 514436348], length 0
+  313  14:00:25.923892 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 49614:49676, ack 9917, win 852, options [nop,nop,TS val 2183332057 ecr 514436348], length 62
+  314  14:00:25.924195 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 49676, win 4537, options [nop,nop,TS val 514436580 ecr 2183332057], length 0
+  315  14:00:25.925471 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 49676:51094, ack 9917, win 852, options [nop,nop,TS val 2183332057 ecr 514436348], length 1418
+  316  14:00:25.925472 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 51094:51548, ack 9917, win 852, options [nop,nop,TS val 2183332058 ecr 514436348], length 454
+  317  14:00:25.925473 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 51548:51587, ack 9917, win 852, options [nop,nop,TS val 2183332058 ecr 514436348], length 39
+  318  14:00:25.925646 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 51587, win 4479, options [nop,nop,TS val 514436581 ecr 2183332058], length 0
+  319  14:00:25.926055 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 9917:9956, ack 51587, win 4539, options [nop,nop,TS val 514436581 ecr 2183332058], length 39
+  320  14:00:25.950279 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 9956, win 852, options [nop,nop,TS val 2183332122 ecr 514436581], length 0
+  321  14:00:32.289056 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  322  14:00:32.289187 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  323  14:00:40.323290 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  324  14:00:40.323370 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  325  14:00:41.325805 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  326  14:00:41.325819 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  327  14:00:42.905898 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  328  14:00:44.259506 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  329  14:00:44.333703 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  330  14:00:44.333709 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  331  14:00:44.822771 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 9956:10014, ack 51587, win 4539, options [nop,nop,TS val 514455477 ecr 2183332122], length 58
+  332  14:00:44.823429 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 10014:11432, ack 51587, win 4539, options [nop,nop,TS val 514455477 ecr 2183332122], length 1418
+  333  14:00:44.823497 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 11432:12062, ack 51587, win 4539, options [nop,nop,TS val 514455477 ecr 2183332122], length 630
+  334  14:00:44.823569 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 12062:12073, ack 51587, win 4539, options [nop,nop,TS val 514455477 ecr 2183332122], length 11
+  335  14:00:44.856533 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 10655:12073, ack 51587, win 4539, options [nop,nop,TS val 514455509 ecr 2183332122], length 1418
+  336  14:00:45.040892 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 10014, win 852, options [nop,nop,TS val 2183350997 ecr 514455477], length 0
+  337  14:00:45.040893 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 11432, win 863, options [nop,nop,TS val 2183350998 ecr 514455477], length 0
+  338  14:00:45.042463 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 12062, win 874, options [nop,nop,TS val 2183351214 ecr 514455477], length 0
+  339  14:00:45.042464 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 12073, win 874, options [nop,nop,TS val 2183351214 ecr 514455477], length 0
+  340  14:00:45.042465 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 12073, win 874, options [nop,nop,TS val 2183351214 ecr 514455509,nop,nop,sack 1 {10655:12073}], length 0
+  341  14:00:45.239400 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 51587:51649, ack 12073, win 874, options [nop,nop,TS val 2183351383 ecr 514455509], length 62
+  342  14:00:45.239401 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 51649:53067, ack 12073, win 874, options [nop,nop,TS val 2183351383 ecr 514455509], length 1418
+  343  14:00:45.239403 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 53067:54485, ack 12073, win 874, options [nop,nop,TS val 2183351383 ecr 514455509], length 1418
+  344  14:00:45.239404 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 54485:54598, ack 12073, win 874, options [nop,nop,TS val 2183351383 ecr 514455509], length 113
+  345  14:00:45.239404 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 54598:54637, ack 12073, win 874, options [nop,nop,TS val 2183351384 ecr 514455509], length 39
+  346  14:00:45.241155 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 54637, win 4443, options [nop,nop,TS val 514455891 ecr 2183351384], length 0
+  347  14:00:45.241160 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 54637, win 4539, options [nop,nop,TS val 514455891 ecr 2183351384], length 0
+  348  14:00:45.241842 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 12073:12112, ack 54637, win 4539, options [nop,nop,TS val 514455892 ecr 2183351384], length 39
+  349  14:00:45.244439 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 12112, win 874, options [nop,nop,TS val 2183351416 ecr 514455892], length 0
+  350  14:00:46.176993 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  351  14:00:46.176998 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  352  14:00:46.198038 IP nslabs-mbp.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  353  14:00:46.198043 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QU)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  354  14:00:46.209635 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  355  14:00:46.603577 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  356  14:00:47.179580 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  357  14:00:47.179587 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  358  14:00:47.358195 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  359  14:00:48.247369 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [F.], seq 3971, ack 2542, win 287, options [nop,nop,TS val 83251732 ecr 4170309060], length 0
+  360  14:00:48.247500 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 3972, win 4096, options [nop,nop,TS val 4170369157 ecr 83251732], length 0
+  361  14:00:48.248852 IP usertekiiphone.52179 > 80.14.211.130.bc.googleusercontent.com.https: Flags [F.], seq 2542, ack 3972, win 4096, options [nop,nop,TS val 4170369158 ecr 83251732], length 0
+  362  14:00:48.251104 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52179: Flags [.], ack 2543, win 287, options [nop,nop,TS val 83251900 ecr 4170369158], length 0
+  363  14:00:49.257526 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [S], seq 2422614638, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 135140782 ecr 0,sackOK,eol], length 0
+  364  14:00:49.258269 IP usertekiiphone.54944 > dlinkrouter.domain: 62711+ A? pgorelease.nianticlabs.com. (44)
+  365  14:00:49.260138 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [S.], seq 220818664, ack 2422614639, win 65535, options [mss 1430,sackOK,TS val 2908481159 ecr 135140782,nop,wscale 8], length 0
+  366  14:00:49.260229 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 1, win 4121, options [nop,nop,TS val 135140784 ecr 2908481159], length 0
+  367  14:00:49.264732 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 1:219, ack 1, win 4121, options [nop,nop,TS val 135140787 ecr 2908481159], length 218
+  368  14:00:49.266909 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [.], ack 219, win 261, options [nop,nop,TS val 2908481166 ecr 135140787], length 0
+  369  14:00:49.267275 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [P.], seq 1:148, ack 219, win 261, options [nop,nop,TS val 2908481166 ecr 135140787], length 147
+  370  14:00:49.267315 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 148, win 4116, options [nop,nop,TS val 135140789 ecr 2908481166], length 0
+  371  14:00:49.267534 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 219:225, ack 148, win 4116, options [nop,nop,TS val 135140789 ecr 2908481166], length 6
+  372  14:00:49.275350 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [.], ack 225, win 261, options [nop,nop,TS val 2908481174 ecr 135140789], length 0
+  373  14:00:49.275476 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 225:270, ack 148, win 4116, options [nop,nop,TS val 135140797 ecr 2908481174], length 45
+  374  14:00:49.277849 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [.], ack 270, win 261, options [nop,nop,TS val 2908481177 ecr 135140797], length 0
+  375  14:00:49.281872 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 270:562, ack 148, win 4116, options [nop,nop,TS val 135140802 ecr 2908481177], length 292
+  376  14:00:49.283381 IP dlinkrouter.domain > usertekiiphone.54944: 62711 1/0/0 A 130.211.14.80 (60)
+  377  14:00:49.284074 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [.], ack 562, win 265, options [nop,nop,TS val 2908481183 ecr 135140802], length 0
+  378  14:00:49.390876 IP nslabs-macbook-pro.local.49417 > 239.255.255.250.ssdp: UDP, length 174
+  379  14:00:49.451798 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [P.], seq 148:398, ack 562, win 265, options [nop,nop,TS val 2908481345 ecr 135140802], length 250
+  380  14:00:49.451917 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 398, win 4108, options [nop,nop,TS val 135140971 ecr 2908481345], length 0
+  381  14:00:49.485650 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 562:1980, ack 398, win 4108, options [nop,nop,TS val 135141004 ecr 2908481345], length 1418
+  382  14:00:49.485664 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 1980:2043, ack 398, win 4108, options [nop,nop,TS val 135141004 ecr 2908481345], length 63
+  383  14:00:49.488647 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [.], ack 1980, win 276, options [nop,nop,TS val 2908481387 ecr 135141004], length 0
+  384  14:00:49.488649 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [.], ack 2043, win 276, options [nop,nop,TS val 2908481387 ecr 135141004], length 0
+  385  14:00:49.649344 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.52180: Flags [P.], seq 398:567, ack 2043, win 276, options [nop,nop,TS val 2908481548 ecr 135141004], length 169
+  386  14:00:49.649450 IP usertekiiphone.52180 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 567, win 4103, options [nop,nop,TS val 135141166 ecr 2908481548], length 0
+  387  14:00:49.829917 ARP, Request who-has usertekiiphone tell dlinkrouter, length 28
+  388  14:00:49.829938 ARP, Reply usertekiiphone is-at 42:55:64:8e:cb:27 (oui Unknown), length 28
+  389  14:00:50.001298 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  390  14:00:50.185433 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  391  14:00:50.185468 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  392  14:00:50.294153 IP nslabs-mbp.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  393  14:00:50.294158 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  394  14:00:50.391027 IP nslabs-macbook-pro.local.49417 > 239.255.255.250.ssdp: UDP, length 174
+  395  14:00:50.725716 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  396  14:00:51.391271 IP nslabs-macbook-pro.local.49417 > 239.255.255.250.ssdp: UDP, length 174
+  397  14:00:52.392310 IP nslabs-macbook-pro.local.49417 > 239.255.255.250.ssdp: UDP, length 174
+  398  14:00:53.355244 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  399  14:00:53.355254 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  400  14:00:54.126522 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  401  14:00:54.576591 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 12112:12170, ack 54637, win 4539, options [nop,nop,TS val 514465226 ecr 2183351416], length 58
+  402  14:00:54.576796 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 12170:13588, ack 54637, win 4539, options [nop,nop,TS val 514465226 ecr 2183351416], length 1418
+  403  14:00:54.576817 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 13588:14133, ack 54637, win 4539, options [nop,nop,TS val 514465226 ecr 2183351416], length 545
+  404  14:00:54.579011 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 12170, win 874, options [nop,nop,TS val 2183360751 ecr 514465226], length 0
+  405  14:00:54.579627 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 13588, win 885, options [nop,nop,TS val 2183360751 ecr 514465226], length 0
+  406  14:00:54.579628 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 14133, win 896, options [nop,nop,TS val 2183360751 ecr 514465226], length 0
+  407  14:00:54.903238 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 54637:54699, ack 14133, win 896, options [nop,nop,TS val 2183361047 ecr 514465226], length 62
+  408  14:00:54.903239 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 54699:56117, ack 14133, win 896, options [nop,nop,TS val 2183361047 ecr 514465226], length 1418
+  409  14:00:54.903491 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 56117, win 4492, options [nop,nop,TS val 514465552 ecr 2183361047], length 0
+  410  14:00:54.904932 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 56117:57535, ack 14133, win 896, options [nop,nop,TS val 2183361047 ecr 514465226], length 1418
+  411  14:00:54.904934 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 57535:58783, ack 14133, win 896, options [nop,nop,TS val 2183361047 ecr 514465226], length 1248
+  412  14:00:54.904935 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 58783:60201, ack 14133, win 896, options [nop,nop,TS val 2183361057 ecr 514465226], length 1418
+  413  14:00:54.904937 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 60201:61619, ack 14133, win 896, options [nop,nop,TS val 2183361057 ecr 514465226], length 1418
+  414  14:00:54.904938 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 61619:63037, ack 14133, win 896, options [nop,nop,TS val 2183361057 ecr 514465226], length 1418
+  415  14:00:54.904939 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 63037:63158, ack 14133, win 896, options [nop,nop,TS val 2183361057 ecr 514465226], length 121
+  416  14:00:54.904940 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 63158:64576, ack 14133, win 896, options [nop,nop,TS val 2183361062 ecr 514465226], length 1418
+  417  14:00:54.904940 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 64576:65994, ack 14133, win 896, options [nop,nop,TS val 2183361062 ecr 514465226], length 1418
+  418  14:00:54.904942 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 65994:67412, ack 14133, win 896, options [nop,nop,TS val 2183361062 ecr 514465226], length 1418
+  419  14:00:54.904943 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 67412:67569, ack 14133, win 896, options [nop,nop,TS val 2183361063 ecr 514465226], length 157
+  420  14:00:54.904944 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 67569:68987, ack 14133, win 896, options [nop,nop,TS val 2183361068 ecr 514465226], length 1418
+  421  14:00:54.904945 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 68987:69453, ack 14133, win 896, options [nop,nop,TS val 2183361068 ecr 514465226], length 466
+  422  14:00:54.906819 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 69453, win 4122, options [nop,nop,TS val 514465555 ecr 2183361068], length 0
+  423  14:00:54.906820 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 69453, win 4539, options [nop,nop,TS val 514465555 ecr 2183361068], length 0
+  424  14:00:54.908166 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 72289:73707, ack 14133, win 896, options [nop,nop,TS val 2183361079 ecr 514465552], length 1418
+  425  14:00:54.908167 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 73707:73892, ack 14133, win 896, options [nop,nop,TS val 2183361079 ecr 514465552], length 185
+  426  14:00:54.908168 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 69453:70871, ack 14133, win 896, options [nop,nop,TS val 2183361079 ecr 514465552], length 1418
+  427  14:00:54.908169 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 70871:72289, ack 14133, win 896, options [nop,nop,TS val 2183361079 ecr 514465552], length 1418
+  428  14:00:54.913270 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 69453, win 4539, options [nop,nop,TS val 514465556 ecr 2183361068,nop,nop,sack 1 {72289:73892}], length 0
+  429  14:00:54.913271 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 73892, win 4400, options [nop,nop,TS val 514465560 ecr 2183361079], length 0
+  430  14:00:54.913272 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 73892, win 4539, options [nop,nop,TS val 514465560 ecr 2183361079], length 0
+  431  14:00:54.913898 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 73892:75310, ack 14133, win 896, options [nop,nop,TS val 2183361085 ecr 514465555], length 1418
+  432  14:00:54.913900 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 75310:76728, ack 14133, win 896, options [nop,nop,TS val 2183361085 ecr 514465555], length 1418
+  433  14:00:54.913901 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 76728:78146, ack 14133, win 896, options [nop,nop,TS val 2183361085 ecr 514465555], length 1418
+  434  14:00:54.913902 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 78146:78337, ack 14133, win 896, options [nop,nop,TS val 2183361085 ecr 514465555], length 191
+  435  14:00:54.914133 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 78337, win 4400, options [nop,nop,TS val 514465560 ecr 2183361085], length 0
+  436  14:00:54.914134 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 78337, win 4539, options [nop,nop,TS val 514465561 ecr 2183361085], length 0
+  437  14:00:54.924953 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 78337:79755, ack 14133, win 896, options [nop,nop,TS val 2183361096 ecr 514465561], length 1418
+  438  14:00:54.924954 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 79755:81173, ack 14133, win 896, options [nop,nop,TS val 2183361096 ecr 514465561], length 1418
+  439  14:00:54.924955 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 81173:82578, ack 14133, win 896, options [nop,nop,TS val 2183361096 ecr 514465561], length 1405
+  440  14:00:54.925252 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 82578, win 4406, options [nop,nop,TS val 514465572 ecr 2183361096], length 0
+  441  14:00:54.925253 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 82578, win 4539, options [nop,nop,TS val 514465572 ecr 2183361096], length 0
+  442  14:00:54.930224 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 82578:83996, ack 14133, win 896, options [nop,nop,TS val 2183361102 ecr 514465572], length 1418
+  443  14:00:54.930226 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 83996:85414, ack 14133, win 896, options [nop,nop,TS val 2183361102 ecr 514465572], length 1418
+  444  14:00:54.930227 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 85414:86832, ack 14133, win 896, options [nop,nop,TS val 2183361102 ecr 514465572], length 1418
+  445  14:00:54.930228 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 86832:87000, ack 14133, win 896, options [nop,nop,TS val 2183361102 ecr 514465572], length 168
+  446  14:00:54.930490 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 87000, win 4400, options [nop,nop,TS val 514465577 ecr 2183361102], length 0
+  447  14:00:54.930490 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 87000, win 4539, options [nop,nop,TS val 514465577 ecr 2183361102], length 0
+  448  14:00:54.935898 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 87000:88418, ack 14133, win 896, options [nop,nop,TS val 2183361107 ecr 514465577], length 1418
+  449  14:00:54.935899 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], seq 88418:89836, ack 14133, win 896, options [nop,nop,TS val 2183361107 ecr 514465577], length 1418
+  450  14:00:54.935901 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 89836:91185, ack 14133, win 896, options [nop,nop,TS val 2183361107 ecr 514465577], length 1349
+  451  14:00:54.936073 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 91185, win 4408, options [nop,nop,TS val 514465582 ecr 2183361107], length 0
+  452  14:00:54.936074 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 91185, win 4539, options [nop,nop,TS val 514465582 ecr 2183361107], length 0
+  453  14:00:54.941438 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 91185:92603, ack 14133, win 896, options [nop,nop,TS val 2183361113 ecr 514465582], length 1418
+  454  14:00:54.941441 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 92603:93832, ack 14133, win 896, options [nop,nop,TS val 2183361113 ecr 514465582], length 1229
+  455  14:00:54.941443 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 93832:93871, ack 14133, win 896, options [nop,nop,TS val 2183361113 ecr 514465582], length 39
+  456  14:00:54.943181 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 93871, win 4455, options [nop,nop,TS val 514465588 ecr 2183361113], length 0
+  457  14:00:54.943479 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 14133:14172, ack 93871, win 4539, options [nop,nop,TS val 514465588 ecr 2183361113], length 39
+  458  14:00:54.945985 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 14172, win 896, options [nop,nop,TS val 2183361118 ecr 514465588], length 0
+  459  14:00:57.369525 IP usertekiiphone.57411 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 94:149, ack 172, win 4096, options [nop,nop,TS val 3326924525 ecr 1190544924], length 55
+  460  14:00:57.393018 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [.], ack 149, win 265, options [nop,nop,TS val 1190681348 ecr 3326924525], length 0
+  461  14:00:57.464905 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 14172:14230, ack 93871, win 4539, options [nop,nop,TS val 514468107 ecr 2183361118], length 58
+  462  14:00:57.466129 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], seq 14230:15648, ack 93871, win 4539, options [nop,nop,TS val 514468108 ecr 2183361118], length 1418
+  463  14:00:57.466359 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 15648:15841, ack 93871, win 4539, options [nop,nop,TS val 514468108 ecr 2183361118], length 193
+  464  14:00:57.502027 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 14423:15841, ack 93871, win 4539, options [nop,nop,TS val 514468142 ecr 2183361118], length 1418
+  465  14:00:57.535388 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 15841:15899, ack 93871, win 4539, options [nop,nop,TS val 514468175 ecr 2183361118], length 58
+  466  14:00:57.536359 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 15899:17190, ack 93871, win 4539, options [nop,nop,TS val 514468176 ecr 2183361118], length 1291
+  467  14:00:57.621536 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [P.], seq 172:233, ack 149, win 265, options [nop,nop,TS val 1190681504 ecr 3326924525], length 61
+  468  14:00:57.621538 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [P.], seq 233:304, ack 149, win 265, options [nop,nop,TS val 1190681504 ecr 3326924525], length 71
+  469  14:00:57.621540 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [P.], seq 304:343, ack 149, win 265, options [nop,nop,TS val 1190681504 ecr 3326924525], length 39
+  470  14:00:57.622448 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 14230, win 896, options [nop,nop,TS val 2183363794 ecr 514468107], length 0
+  471  14:00:57.622450 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 15648, win 907, options [nop,nop,TS val 2183363794 ecr 514468108], length 0
+  472  14:00:57.622451 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 15841, win 918, options [nop,nop,TS val 2183363794 ecr 514468108], length 0
+  473  14:00:57.622650 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 15841, win 918, options [nop,nop,TS val 2183363794 ecr 514468142,nop,nop,sack 1 {14423:15841}], length 0
+  474  14:00:57.622651 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 15899, win 918, options [nop,nop,TS val 2183363794 ecr 514468175], length 0
+  475  14:00:57.622652 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 17190, win 930, options [nop,nop,TS val 2183363794 ecr 514468176], length 0
+  476  14:00:57.623263 IP usertekiiphone.57411 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 343, win 4090, options [nop,nop,TS val 3326924773 ecr 1190681504], length 0
+  477  14:00:57.624190 IP usertekiiphone.57411 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 149:188, ack 343, win 4096, options [nop,nop,TS val 3326924774 ecr 1190681504], length 39
+  478  14:00:57.627042 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57411: Flags [.], ack 188, win 265, options [nop,nop,TS val 1190681582 ecr 3326924774], length 0
+  479  14:00:57.789286 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 93871:93933, ack 17190, win 930, options [nop,nop,TS val 2183363961 ecr 514468176], length 62
+  480  14:00:57.789288 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 93933:94470, ack 17190, win 930, options [nop,nop,TS val 2183363961 ecr 514468176], length 537
+  481  14:00:57.789290 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 94470:94742, ack 17190, win 930, options [nop,nop,TS val 2183363961 ecr 514468176], length 272
+  482  14:00:57.789448 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 94742:94781, ack 17190, win 930, options [nop,nop,TS val 2183363961 ecr 514468176], length 39
+  483  14:00:57.789906 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 94781:94843, ack 17190, win 930, options [nop,nop,TS val 2183363962 ecr 514468176], length 62
+  484  14:00:57.789907 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 94843:96126, ack 17190, win 930, options [nop,nop,TS val 2183363962 ecr 514468176], length 1283
+  485  14:00:57.789910 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [P.], seq 96126:96173, ack 17190, win 930, options [nop,nop,TS val 2183363962 ecr 514468176], length 47
+  486  14:00:57.790164 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 94742, win 4511, options [nop,nop,TS val 514468428 ecr 2183363961], length 0
+  487  14:00:57.790166 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 94781, win 4510, options [nop,nop,TS val 514468428 ecr 2183363961], length 0
+  488  14:00:57.791063 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [P.], seq 17190:17229, ack 94781, win 4539, options [nop,nop,TS val 514468429 ecr 2183363961], length 39
+  489  14:00:57.791576 IP usertekiiphone.57416 > 80.14.211.130.bc.googleusercontent.com.https: Flags [.], ack 96173, win 4495, options [nop,nop,TS val 514468429 ecr 2183363962], length 0
+  490  14:00:57.793552 IP 80.14.211.130.bc.googleusercontent.com.https > usertekiiphone.57416: Flags [.], ack 17229, win 930, options [nop,nop,TS val 2183363965 ecr 514468429], length 0
+  491  14:00:58.909179 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  492  14:00:58.963348 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [P.], seq 3664320421:3664320543, ack 2699380906, win 6355, options [nop,nop,TS val 2647499208 ecr 3861937180], length 122
+  493  14:00:58.966490 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], ack 122, win 265, options [nop,nop,TS val 3862118767 ecr 2647499208], length 0
+  494  14:00:58.968483 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 1:106, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 105
+  495  14:00:58.968485 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 106:1524, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  496  14:00:58.968543 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 1524:2942, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  497  14:00:58.968545 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 2942:4360, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  498  14:00:58.968987 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 4360:5778, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  499  14:00:58.968990 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 5778:7196, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  500  14:00:58.968991 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 7196:8614, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  501  14:00:58.968993 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 8614:10032, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  502  14:00:58.968995 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 10032:11450, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  503  14:00:58.968997 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 11450:12868, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  504  14:00:58.968999 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 12868:14286, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  505  14:00:58.969198 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 14286:15704, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  506  14:00:58.969201 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 15704:17122, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  507  14:00:58.970183 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 17122:18540, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  508  14:00:58.970185 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 18540:19958, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  509  14:00:58.970188 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 19958:21376, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  510  14:00:58.970189 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 21376:22794, ack 122, win 265, options [nop,nop,TS val 3862118769 ecr 2647499208], length 1418
+  511  14:00:58.970191 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 22794:24212, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  512  14:00:58.970193 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 24212:25630, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  513  14:00:58.970246 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 25630:27048, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  514  14:00:58.970247 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 27048:28466, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  515  14:00:58.971513 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 28466:29884, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  516  14:00:58.971516 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 29884:31302, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  517  14:00:58.971518 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 31302:32720, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  518  14:00:58.971520 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 32720:33420, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 700
+  519  14:00:58.971522 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 33420:34838, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  520  14:00:58.971524 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 34838:36256, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  521  14:00:58.971527 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 36256:37674, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  522  14:00:58.971528 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 37674:39092, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  523  14:00:58.971531 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 39092:40510, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  524  14:00:58.971534 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 40510:41928, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  525  14:00:58.971535 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 41928:43346, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  526  14:00:58.971537 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 43346:44764, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  527  14:00:58.971540 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 44764:46182, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  528  14:00:58.971541 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 46182:47600, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  529  14:00:58.971543 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 47600:49018, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  530  14:00:58.971545 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 49018:50436, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  531  14:00:58.971547 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 50436:51854, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  532  14:00:58.971549 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 51854:53272, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  533  14:00:58.971551 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 53272:54690, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  534  14:00:58.971553 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 54690:56108, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  535  14:00:58.971555 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 56108:57526, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  536  14:00:58.971557 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 57526:58944, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  537  14:00:58.971558 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 58944:60362, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  538  14:00:58.971560 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 60362:61780, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  539  14:00:58.971564 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 61780:63198, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  540  14:00:58.971566 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 63198:64616, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  541  14:00:58.971567 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 64616:66034, ack 122, win 265, options [nop,nop,TS val 3862118770 ecr 2647499208], length 1418
+  542  14:00:58.971569 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 66034:67452, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  543  14:00:58.971570 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 67452:68870, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  544  14:00:58.971572 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 68870:70288, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  545  14:00:58.971574 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 70288:71706, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  546  14:00:58.971576 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 71706:73124, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  547  14:00:58.971578 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 73124:74542, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  548  14:00:58.971579 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 74542:75960, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  549  14:00:58.971581 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 75960:77378, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  550  14:00:58.971583 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 77378:78796, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  551  14:00:58.971584 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 78796:80214, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  552  14:00:58.971586 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 80214:81632, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  553  14:00:58.972117 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 81632:83050, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  554  14:00:58.972120 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 83050:84468, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  555  14:00:58.972122 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 84468:85886, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  556  14:00:58.972125 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 85886:87304, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  557  14:00:58.972127 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 87304:88722, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  558  14:00:58.972129 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 88722:90140, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  559  14:00:58.972131 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 90140:91558, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  560  14:00:58.972133 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 91558:92976, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  561  14:00:58.972135 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 92976:94394, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  562  14:00:58.972137 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 94394:95812, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  563  14:00:58.972139 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 95812:97230, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  564  14:00:58.972140 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 97230:98648, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  565  14:00:58.972142 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 98648:100066, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  566  14:00:58.972144 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 100066:101484, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  567  14:00:58.972146 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 101484:102902, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  568  14:00:58.972147 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 102902:104320, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  569  14:00:58.972149 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 104320:105738, ack 122, win 265, options [nop,nop,TS val 3862118771 ecr 2647499208], length 1418
+  570  14:00:58.972151 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], seq 105738:107156, ack 122, win 265, options [nop,nop,TS val 3862118772 ecr 2647499208], length 1418
+  571  14:00:58.972153 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 107156:107813, ack 122, win 265, options [nop,nop,TS val 3862118772 ecr 2647499208], length 657
+  572  14:00:58.977642 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 1524, win 6308, options [nop,nop,TS val 2647499213 ecr 3862118769], length 0
+  573  14:00:58.977644 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 4360, win 6219, options [nop,nop,TS val 2647499213 ecr 3862118769], length 0
+  574  14:00:58.977645 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 4360, win 6355, options [nop,nop,TS val 2647499213 ecr 3862118769], length 0
+  575  14:00:58.983591 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 14286, win 6045, options [nop,nop,TS val 2647499223 ecr 3862118769], length 0
+  576  14:00:58.983593 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 17122, win 5957, options [nop,nop,TS val 2647499223 ecr 3862118769], length 0
+  577  14:00:58.983595 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 25630, win 5691, options [nop,nop,TS val 2647499223 ecr 3862118770], length 0
+  578  14:00:58.983596 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 28466, win 5602, options [nop,nop,TS val 2647499223 ecr 3862118770], length 0
+  579  14:00:58.983597 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 44764, win 5093, options [nop,nop,TS val 2647499223 ecr 3862118770], length 0
+  580  14:00:58.983598 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 60362, win 4605, options [nop,nop,TS val 2647499223 ecr 3862118770], length 0
+  581  14:00:58.983599 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 75960, win 4118, options [nop,nop,TS val 2647499223 ecr 3862118771], length 0
+  582  14:00:58.983600 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 81632, win 3941, options [nop,nop,TS val 2647499223 ecr 3862118771], length 0
+  583  14:00:58.983612 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 97230, win 3453, options [nop,nop,TS val 2647499223 ecr 3862118771], length 0
+  584  14:00:58.983613 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 107813, win 3123, options [nop,nop,TS val 2647499223 ecr 3862118772], length 0
+  585  14:00:58.983614 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 107813, win 6355, options [nop,nop,TS val 2647499224 ecr 3862118772], length 0
+  586  14:00:58.985041 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [P.], seq 122:161, ack 107813, win 6355, options [nop,nop,TS val 2647499228 ecr 3862118772], length 39
+  587  14:00:59.062486 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [P.], seq 107156:107813, ack 122, win 265, options [nop,nop,TS val 3862118784 ecr 2647499208], length 657
+  588  14:00:59.069992 IP tsa03s08-in-f1.1e100.net.https > usertekiiphone.57422: Flags [.], ack 161, win 265, options [nop,nop,TS val 3862118871 ecr 2647499228], length 0
+  589  14:00:59.070119 IP usertekiiphone.57422 > tsa03s08-in-f1.1e100.net.https: Flags [.], ack 107813, win 6355, options [nop,nop,TS val 2647499312 ecr 3862118784,nop,nop,sack 1 {107156:107813}], length 0
+  590  14:00:59.207767 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  591  14:00:59.207872 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  592  14:00:59.305356 IP nslabs-mbp.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  593  14:00:59.305366 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. TXT (QM)? HP Color LaserJet M651 [3F3C6F]._ipp._tcp.local. (71)
+  594  14:01:01.501094 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  595  14:01:01.501219 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  596  14:01:02.182869 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  597  14:01:02.504880 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  598  14:01:02.504969 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  599  14:01:05.514965 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  600  14:01:05.515081 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  601  14:01:06.937101 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  602  14:01:09.661090 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 1/0/0 PTR 41ebc443d3f6._airdrop._tcp.local. (58)
+  603  14:01:10.827065 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  604  14:01:11.665982 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 1/0/0 PTR 41ebc443d3f6._airdrop._tcp.local. (58)
+  605  14:01:12.410603 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) SRV 2cb0c815-1575-469d-99c2-7e1fd383c647.local.:8770 0 0, (Cache flush) TXT "flags=1015", PTR _airdrop._tcp.local., PTR 62d4d2fecc12._airdrop._tcp.local. (244)
+  606  14:01:13.414139 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) SRV 2cb0c815-1575-469d-99c2-7e1fd383c647.local.:8770 0 0, (Cache flush) TXT "flags=1015", PTR _airdrop._tcp.local., PTR 62d4d2fecc12._airdrop._tcp.local. (244)
+  607  14:01:13.681832 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 1/0/0 PTR 41ebc443d3f6._airdrop._tcp.local. (58)
+  608  14:01:14.532536 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  609  14:01:14.532641 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QM)? ncm._remoted._tcp.local. TXT (QM)? ncm._remoted._tcp.local. (47)
+  610  14:01:15.406403 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6c (oui Unknown), length 300
+  611  14:01:15.418962 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) SRV 2cb0c815-1575-469d-99c2-7e1fd383c647.local.:8770 0 0, (Cache flush) TXT "flags=1015", PTR _airdrop._tcp.local., PTR 62d4d2fecc12._airdrop._tcp.local. (244)
+  612  14:01:17.889625 IP usertekiiphone.51608 > nslabs-mbp.56756: Flags [.], ack 1, win 4096, length 0
+  613  14:01:18.352819 IP nslabs-mbp.56756 > usertekiiphone.51608: Flags [.], ack 1, win 2048, options [nop,nop,TS val 2535995505 ecr 1191796617], length 0
+  614  14:01:19.419918 IP6 fe80::686e:b1ff:fe33:996a.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) SRV 2cb0c815-1575-469d-99c2-7e1fd383c647.local.:8770 0 0, (Cache flush) TXT "flags=1015", PTR _airdrop._tcp.local., PTR 62d4d2fecc12._airdrop._tcp.local. (244)
+  615  14:01:19.597695 IP 0.0.0.0.bootpc > broadcasthost.bootps: BOOTP/DHCP, Request from 6a:db:ca:c7:c7:6a (oui Unknown), length 300
+  616  14:01:22.561128 IP nslabs-macbook-pro.local.mdns > 224.0.0.251.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  617  14:01:22.561279 IP6 nslabs-macbook-pro.local.mdns > ff02::fb.mdns: 0 [2q] SRV (QU)? ncm._remoted._tcp.local. TXT (QU)? ncm._remoted._tcp.local. (47)
+  618  14:01:23.471938 ARP, Reply dlinkrouter is-at f4:8c:eb:9e:9e:db (oui Unknown), length 28
+
+EOF
